@@ -12,3 +12,24 @@ let x = 3
 let y = ++x
 console.log(x) // 4 
 console.log(y) // 4
+
+let h = 30.5
+
+console.log(typeof h)
+
+const array  = [1, 2, 3, 4, 5]
+
+console.log(typeof array) // object
+
+const obj = {
+    name: "Rohit",
+    age: 25,
+    isStudent: false
+}
+console.log(typeof obj) // object
+
+const example = function() {
+    console.log("This is a function")
+}
+
+console.log(typeof example) // function
