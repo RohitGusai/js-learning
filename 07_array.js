@@ -3,8 +3,13 @@ const newArray = [1, 2, 3, 4, 5,"rohit"];
 console.log(typeof newArray); // object
 
 console.log(newArray[5]);
+console.log(newArray.unshift(9)) // adds an element to the beginning of the array and returns the new length of the array
+console.log(newArray); // [9, 1, 2, 3, 4, 5, "rohit"]
+console.log(newArray.shift()) // removes the first element of the array and returns it
 
+console.log(newArray.includes(0));
 
+console.log(newArray);
 const a = newArray.join(); // joins convert the array into a string and is type from object to string
 console.log(a); // "1,2,3,4,5,rohit"
 console.log(typeof a); // string
