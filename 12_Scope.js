@@ -51,7 +51,7 @@ function addOne(n)
     return n+1;
 }
 
-console.log(addTwo(5)); // but in the expression function where you put the function in the variable will create a error it will show refernce error that cannot access addTwo before intialization
+console.log(addTwo(5)); // but in the Anonymous expression function where you put the function in the variable will create a error it will show refernce error that cannot access addTwo before intialization
 const addTwo = function(n){ // because it is store in a variable and you cannot access any variable before initalized it
     return n+2;
 }
